@@ -1,3 +1,11 @@
+# Memoryless property
+the distribution of a "waiting time" until a certain event does not depend on how much time has elapsed already.  
+![image](https://github.com/zhang-mickey/network/assets/145342600/23946553-c72d-458b-a0fb-ae085094800c)
+
+Prob{X>30|given X>10}=Prob{X>20}  
+## Exponential Distribution
+
+
 # 
 `Latency`:The time from the source sending a packet to the destination receiving it  
 
@@ -36,6 +44,9 @@ until a packet is lost, at which point the congestion avoidance algorithm takes 
 ### Bandwidth-Delay Product(BDP)
 the current receive windowsare communicated in every ACK, and the congestion window is dynamically adjusted by the sender based on the congestion control and avoidance  
  algorithms.
+
+
+ 
 # UDP
 Applications that can deal with out-of-order delivery or packet loss and that are latency
 or jitter sensitive are likely better served with an alternate transport, such as UDP.
