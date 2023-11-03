@@ -7,6 +7,10 @@ Prob{X>30|given X>10}=Prob{X>20}
 
 ## Exponential Distribution
 
+# Continuous Time Markov Chains (CTMCs)
+
+Poisson arrivals are by far the most popular
+arrival model used in the analysis of queueing systems.
 
 # 
 `Latency`:The time from the source sending a packet to the destination receiving it  
