@@ -3,6 +3,8 @@ the distribution of a "waiting time" until a certain event does not depend on ho
 ![image](https://github.com/zhang-mickey/network/assets/145342600/23946553-c72d-458b-a0fb-ae085094800c)
 
 Prob{X>30|given X>10}=Prob{X>20}  
+<img width="659" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/cfbaa119-6506-4b23-9476-9169a6e6c60f">
+
 ## Exponential Distribution
 
 
