@@ -7,6 +7,9 @@ Prob{X>30|given X>10}=Prob{X>20}
 
 ## Exponential Distribution
 
+## Poisson Arrivals See Time Averages(PASTA)
+
+
 # Continuous Time Markov Chains (CTMCs)
 
 Poisson arrivals are by far the most popular
