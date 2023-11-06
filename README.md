@@ -70,5 +70,12 @@ three essential services:
 
 ## TLS handshake 
 
+
+# Streaming versus elastic traffic
+Almost all traffic in todays networks can be classified as being either stream or elastic traffic.
+## streaming traffic
+has strict bandwidth and delay requirements  
+## elastic traffic 
+
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.
