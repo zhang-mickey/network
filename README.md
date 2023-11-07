@@ -6,6 +6,12 @@ Prob{X>30|given X>10}=Prob{X>20}
 <img width="659" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/cfbaa119-6506-4b23-9476-9169a6e6c60f">
 
 ## Exponential Distribution
+## Poisson process
+
+## M/M/c queue
+Arrivals occur at rate λ according to a Poisson process and move the process from state i to i+1.  
+Service times have an exponential distribution with parameter μ. If there are fewer than c jobs, some of the servers will be idle. If there are more than c jobs, the jobs queue in a buffer.  
+<img width="477" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/961d0a29-1536-4834-95a7-ecee5eac64ac">
 
 ## Poisson Arrivals See Time Averages(PASTA)
 
