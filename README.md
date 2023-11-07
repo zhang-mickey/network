@@ -12,6 +12,9 @@ Prob{X>30|given X>10}=Prob{X>20}
 ## Erlang Distribution
 <img width="595" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/a14938f3-b49c-4fe9-9b2a-810580014029">
 
+## poisson Distribution
+<img width="602" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/75c1ab16-3492-4123-9bd8-35fd8f4327bf">
+
 ## process (function of time )
 
 ## stochastic process
@@ -23,16 +26,20 @@ Future states are independent of the past and depend only on  the present.
 Markov chain : discrete state Markov process.  
 M/M/m queues can be modeled using Markov processes.  
 The time spent by a job in such a quene is a Markov processes, and the number of jobs in the quene is a Markov chain.  
-#### Continuous Time Markov Chains (CTMCs)
-
+##### Continuous Time Markov Chains (CTMCs)
 Poisson arrivals are by far the most popular arrival model used in the analysis of queueing systems.
 Markov process > poisson process  
+
+
 #### Birth-death Process
 <img width="600" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/91218ebe-08c8-415b-bb5d-8f413c5a66a3">
 
 #### Poisson process
-tne of its fundamental properties is that `arrivals` follow a `Poisson distribution`, and the `time between arrivals` follows an `exponential distribution`.  
+its fundamental properties is that `arrivals` follow a `Poisson distribution`, and the `time between arrivals` follows an `exponential distribution`.  
+<img width="579" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/1926246e-2e62-44d2-b879-a499d8bb3502">
 
+#### Poisson Arrivals See Time Averages(PASTA)
+<img width="598" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/0f4752e4-b095-46b3-b63c-bb7435290a4e">
 
 
 # Quene 
@@ -61,7 +68,6 @@ Arrivals occur at rate λ according to a Poisson process and move the process fr
 Service times have an exponential distribution with parameter μ. If there are fewer than c jobs, some of the servers will be idle. If there are more than c jobs, the jobs queue in a buffer.  
 <img width="477" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/961d0a29-1536-4834-95a7-ecee5eac64ac">
 
-## Poisson Arrivals See Time Averages(PASTA)
 
 
 
@@ -128,4 +134,5 @@ has strict bandwidth and delay requirements
 ## elastic traffic 
 
 # Literature
-High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.
+High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
+quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
