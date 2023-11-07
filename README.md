@@ -7,7 +7,7 @@ Prob{X>30|given X>10}=Prob{X>20}
 
 ## Exponential Distribution
 ## Poisson process
-
+ne of its fundamental properties is that arrivals follow a Poisson distribution, and the time between arrivals follows an exponential distribution.
 ## M/M/c queue
 Arrivals occur at rate λ according to a Poisson process and move the process from state i to i+1.  
 Service times have an exponential distribution with parameter μ. If there are fewer than c jobs, some of the servers will be idle. If there are more than c jobs, the jobs queue in a buffer.  
