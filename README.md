@@ -133,6 +133,13 @@ Almost all traffic in todays networks can be classified as being either stream o
 has strict bandwidth and delay requirements  
 ## elastic traffic 
 
+a single link whose capacity is shared by various types of elastic data flows.  
+<img width="300" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/0844d10f-700b-4f7f-b34a-447880f09756">
+
+## Kaufman-Roberts
+Kaufman-Roberts is a multi-dimensional Erlang method that you use when multiple services share a common resource pool.  
+The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a different number of traffic flows or channels. Each flow or channel is smaller than the maximum capacity of the link.  
+
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
 quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
