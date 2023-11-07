@@ -1,3 +1,4 @@
+
 # Memoryless property
 the distribution of a "waiting time" until a certain event does not depend on how much time has elapsed already.  
 ![image](https://github.com/zhang-mickey/network/assets/145342600/23946553-c72d-458b-a0fb-ae085094800c)
@@ -6,9 +7,56 @@ Prob{X>30|given X>10}=Prob{X>20}
 <img width="659" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/cfbaa119-6506-4b23-9476-9169a6e6c60f">
 
 ## Exponential Distribution
-## Poisson process
-ne of its fundamental properties is that arrivals follow a Poisson distribution, and the time between arrivals follows an exponential distribution.
-## M/M/c queue
+<img width="599" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/34c695f3-0181-45c1-a481-9d9b24c130e8">
+
+## Erlang Distribution
+<img width="595" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/a14938f3-b49c-4fe9-9b2a-810580014029">
+
+## process (function of time )
+
+## stochastic process
+random variables, which are functions of time.  
+### types of  stochastic process 
+#### Discrete or Continuous state process
+#### Markov process
+Future states are independent of the past and depend only on  the present.  
+Markov chain : discrete state Markov process.  
+M/M/m queues can be modeled using Markov processes.  
+The time spent by a job in such a quene is a Markov processes, and the number of jobs in the quene is a Markov chain.  
+#### Continuous Time Markov Chains (CTMCs)
+
+Poisson arrivals are by far the most popular arrival model used in the analysis of queueing systems.
+Markov process > poisson process  
+#### Birth-death Process
+<img width="600" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/91218ebe-08c8-415b-bb5d-8f413c5a66a3">
+
+#### Poisson process
+tne of its fundamental properties is that `arrivals` follow a `Poisson distribution`, and the `time between arrivals` follows an `exponential distribution`.  
+
+
+
+# Quene 
+<img width="636" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/66769a70-5475-440a-bc26-82d843d3d6f9">
+
+## arrival process 
+<img width="644" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/a96360d6-29b1-452d-aaae-7d6be1059857">  
+
+## service time distribution
+<img width="613" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/328d71a0-a26d-4620-ab52-9d94d19238fd">
+
+## service disciplines
+<img width="643" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/5d73d7a9-6c72-4acc-9f12-1d8ec5217be5">
+
+## 
+
+## M/M/1
+Arrival rate :λ  
+The processing rate: μ  
+The mean processing time： 1/μ  
+
+
+
+## M/M/c queue(multiserver quene)
 Arrivals occur at rate λ according to a Poisson process and move the process from state i to i+1.  
 Service times have an exponential distribution with parameter μ. If there are fewer than c jobs, some of the servers will be idle. If there are more than c jobs, the jobs queue in a buffer.  
 <img width="477" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/961d0a29-1536-4834-95a7-ecee5eac64ac">
@@ -16,10 +64,6 @@ Service times have an exponential distribution with parameter μ. If there are f
 ## Poisson Arrivals See Time Averages(PASTA)
 
 
-# Continuous Time Markov Chains (CTMCs)
-
-Poisson arrivals are by far the most popular
-arrival model used in the analysis of queueing systems.
 
 # 
 `Latency`:The time from the source sending a packet to the destination receiving it  
