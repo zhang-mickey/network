@@ -140,10 +140,25 @@ a single link whose capacity is shared by various types of elastic data flows.
 Kaufman-Roberts is a multi-dimensional Erlang method that you use when multiple services share a common resource pool.  
 The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a different number of traffic flows or channels. Each flow or channel is smaller than the maximum capacity of the link.  
 
+# Voice over IP
+
 ### Jitter buffer
 delays packets, put packets in right order  
 if too small then packet loss, if too large then packet delay.  
 
+### talker echo
+In a telephone conversation a talker sometimes can hear his own voice as a delayed echo   
+An echo is the audible leak-through of your own voice into your own receive (return) path.  
+<img width="442" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/35c841cc-147f-4778-82c8-14203a032757">  
+<img width="453" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/cf34fc98-d4b4-41d3-beaa-561ae6823e34">  
+Two basic characteristics of echo are as follows:  
+•The louder the echo (echo amplitude), the more annoying it is.  
+•The longer the round-trip delay (the "later" the echo), the more annoying it is.  
+
+### Effect of QoS on Echo
+QoS might improve end-to-end network delay for a given level of congestion—the shorter the delay, the less annoying a given echo becomes.   
+However, you will never be able to reduce the delay below the "danger zone" (25 ms) for echo perception with any form of QoS because the minimum delay inherent in VoIP networks is long enough for echos to be perceptible.   
+QoS can help in other ways (for example, packet loss and jitter), but it cannot, by itself, eliminate echo.  
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
 quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
