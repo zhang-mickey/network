@@ -140,10 +140,14 @@ a single link whose capacity is shared by various types of elastic data flows.
 Kaufman-Roberts is a multi-dimensional Erlang method that you use when multiple services share a common resource pool.  
 The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a different number of traffic flows or channels. Each flow or channel is smaller than the maximum capacity of the link.  
 
-# Voice over IP
-
+# Voice over IP(VoIP)
+a method and group of technologies for voice calls for the delivery of voice communication sessions over Internet Protocol (IP) networks, such as the Internet.  
+Instead of being transmitted over a circuit-switched network, the digital information is packetized and transmission occurs as IP packets over a packet-switched network.  
+## Packet-switched network
+Packets are normally forwarded by intermediate network nodes asynchronously using `first-in-first-out buffering`, but may be forwarded according to some scheduling discipline for fair queuing, `traffic shaping`, or for differentiated or guaranteed quality of service, such as weighted fair queuing or leaky bucket.
+Packet switching contrasts with another principal networking paradigm, `circuit switching`, a method which pre-allocates dedicated network bandwidth specifically for each communication session, each having a constant bit rate and latency between nodes.
 ### Jitter buffer
-delays packets, put packets in right order  
+delays packets, put packets in right order   
 if too small then packet loss, if too large then packet delay.  
 
 ### talker echo
@@ -162,3 +166,4 @@ QoS can help in other ways (for example, packet loss and jitter), but it cannot,
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
 quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
+Echo Analysis for Voice over IP: https://www.cisco.com/c/en/us/td/docs/ios/solutions_docs/voip_solutions/EA_ISD.html
