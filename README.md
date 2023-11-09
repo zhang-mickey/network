@@ -140,6 +140,10 @@ a single link whose capacity is shared by various types of elastic data flows.
 Kaufman-Roberts is a multi-dimensional Erlang method that you use when multiple services share a common resource pool.  
 The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a different number of traffic flows or channels. Each flow or channel is smaller than the maximum capacity of the link.  
 
+### Jitter buffer
+delays packets, put packets in right order  
+if too small then packet loss, if too large then packet delay.  
+
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
 quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
