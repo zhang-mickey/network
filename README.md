@@ -146,6 +146,11 @@ Instead of being transmitted over a circuit-switched network, the digital inform
 ## Packet-switched network
 Packets are normally forwarded by intermediate network nodes asynchronously using `first-in-first-out buffering`, but may be forwarded according to some scheduling discipline for fair queuing, `traffic shaping`, or for differentiated or guaranteed quality of service, such as weighted fair queuing or leaky bucket.
 Packet switching contrasts with another principal networking paradigm, `circuit switching`, a method which pre-allocates dedicated network bandwidth specifically for each communication session, each having a constant bit rate and latency between nodes.
+
+### traffic policing 
+
+### traffic shaping
+
 ### Jitter buffer
 delays packets, put packets in right order   
 if too small then packet loss, if too large then packet delay.  
