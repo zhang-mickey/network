@@ -29,7 +29,9 @@ The time spent by a job in such a quene is a Markov processes, and the number of
 ##### Continuous Time Markov Chains (CTMCs)
 Poisson arrivals are by far the most popular arrival model used in the analysis of queueing systems.
 Markov process > poisson process  
-
+#### Kaufman-Roberts recursion
+The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a
+different number of traffic flows or channels, and each flow or channel is smaller than the maximum capacity of the link.
 
 #### Birth-death Process
 <img width="600" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/91218ebe-08c8-415b-bb5d-8f413c5a66a3">
