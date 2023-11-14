@@ -43,7 +43,9 @@ its fundamental properties is that `arrivals` follow a `Poisson distribution`, a
 #### Poisson Arrivals See Time Averages(PASTA)
 <img width="598" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/0f4752e4-b095-46b3-b63c-bb7435290a4e">
 
-
+### little law
+the long-term average number L of customers in a stationary system is equal to the long-term average effective arrival rate λ multiplied by the average time W that a customer spends in the system  
+The relationship is not influenced by the arrival process distribution, the service distribution, the service order, or practically anything else. In most queuing systems, service time is the bottleneck that creates the queue  
 # Quene 
 <img width="636" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/66769a70-5475-440a-bc26-82d843d3d6f9">
 
