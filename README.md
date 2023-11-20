@@ -1,4 +1,4 @@
-
+`The mean waiting times in an M/G/1 queueing model strongly depends on the variability of the service times,but that the mean sojourn time in the M/G/1 Processing Sharing model in insensitive to the variability.Give an intuitive explanation for this phenomenon`
 # Memoryless property
 the distribution of a "waiting time" until a certain event does not depend on how much time has elapsed already.  
 ![image](https://github.com/zhang-mickey/network/assets/145342600/23946553-c72d-458b-a0fb-ae085094800c)
@@ -27,16 +27,22 @@ Markov chain : discrete state Markov process.
 M/M/m queues can be modeled using Markov processes.  
 The time spent by a job in such a quene is a Markov processes, and the number of jobs in the quene is a Markov chain.  
 ##### Continuous Time Markov Chains (CTMCs)
+`Why does c CTMS for a queueing model typically assume that inter-arrival times and service times are exponentially distributed?`
+```
+Exponential distributions have the memoryless property, which means that the probability of an event occurring in the future is independent of past events.  
+```
 Poisson arrivals are by far the most popular arrival model used in the analysis of queueing systems.
 Markov process > poisson process  
 #### Kaufman-Roberts recursion
 The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a
-different number of traffic flows or channels, and each flow or channel is smaller than the maximum capacity of the link.
-
+different number of traffic flows or channels, and each flow or channel is smaller than the maximum capacity of the link.  
+Kaufman-Roberts is a multi-dimensional Erlang method that you use when multiple services share a common resource pool.  
+The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a different number of traffic flows or channels. Each flow or channel is smaller than the maximum capacity of the link.  
 #### Birth-death Process
 <img width="600" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/91218ebe-08c8-415b-bb5d-8f413c5a66a3">
 
 #### Poisson process
+`What is a Poisson process and why is it a natural way to model random events?`
 its fundamental properties is that `arrivals` follow a `Poisson distribution`, and the `time between arrivals` follows an `exponential distribution`.  
 <img width="579" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/1926246e-2e62-44d2-b879-a499d8bb3502">
 
@@ -140,9 +146,7 @@ has strict bandwidth and delay requirements
 a single link whose capacity is shared by various types of elastic data flows.  
 <img width="300" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/0844d10f-700b-4f7f-b34a-447880f09756">
 
-## Kaufman-Roberts
-Kaufman-Roberts is a multi-dimensional Erlang method that you use when multiple services share a common resource pool.  
-The Kaufman-Roberts functions compute the blocking probability when the total capacity of a link is composed of a different number of traffic flows or channels. Each flow or channel is smaller than the maximum capacity of the link.  
+
 
 # Voice over IP(VoIP)
 a method and group of technologies for voice calls for the delivery of voice communication sessions over Internet Protocol (IP) networks, such as the Internet.  
