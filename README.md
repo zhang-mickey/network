@@ -176,6 +176,18 @@ Two basic characteristics of echo are as follows:
 QoS might improve end-to-end network delay for a given level of congestion—the shorter the delay, the less annoying a given echo becomes.   
 However, you will never be able to reduce the delay below the "danger zone" (25 ms) for echo perception with any form of QoS because the minimum delay inherent in VoIP networks is long enough for echos to be perceptible.   
 QoS can help in other ways (for example, packet loss and jitter), but it cannot, by itself, eliminate echo.  
+
+## 802.11 Wireless LANs
+### DCF（Distributed Coordination Function）
+#### CSMA/CA
+<img width="345" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/e630a030-0333-4b40-bb07-763de74214c1">
+
+##### DIFS与SIFS
+##### Contention window
+##### Backoff
+
+#### RTS/CTS handshaking
+implementing RTS/CTS is to minimize collisions
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
 quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
