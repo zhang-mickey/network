@@ -178,6 +178,7 @@ However, you will never be able to reduce the delay below the "danger zone" (25 
 QoS can help in other ways (for example, packet loss and jitter), but it cannot, by itself, eliminate echo.  
 
 ## 802.11 Wireless LANs
+
 ### DCF（Distributed Coordination Function）
 #### CSMA/CA
 <img width="345" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/e630a030-0333-4b40-bb07-763de74214c1">
@@ -188,6 +189,14 @@ QoS can help in other ways (for example, packet loss and jitter), but it cannot,
 
 #### RTS/CTS handshaking
 implementing RTS/CTS is to minimize collisions
+
+## GSM
+### TDMA(Time Division Medium Access)
+
+### FDMA(Frequency Division Medium Access)
+
+## GPRS
+
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
 quene theory : https://www.cse.wustl.edu/~jain/queue/index.html  
