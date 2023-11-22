@@ -177,29 +177,38 @@ QoS might improve end-to-end network delay for a given level of congestion—the
 However, you will never be able to reduce the delay below the "danger zone" (25 ms) for echo perception with any form of QoS because the minimum delay inherent in VoIP networks is long enough for echos to be perceptible.   
 QoS can help in other ways (for example, packet loss and jitter), but it cannot, by itself, eliminate echo.  
 
-## 802.11 Wireless LANs
 
-### DCF（Distributed Coordination Function）
-#### CSMA/CA
-<img width="345" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/e630a030-0333-4b40-bb07-763de74214c1">
 
-##### DIFS与SIFS
-##### Contention window
-##### Backoff
-
-#### RTS/CTS handshaking
-implementing RTS/CTS is to minimize collisions
-
-## GSM
+## GSM (-Erlang-B model) (2G)
 `The GSM protocol is based on both TDMA and FDMA? Explain what that mean?`
 
 
 ### TDMA(Time Division Medium Access)
 
 ### FDMA(Frequency Division Medium Access)
+## High Speed Circuit Switched Data (multi-rate model)
+
 
 ## GPRS(General Packet Radio Service)(2.5G)
 `what are the main differences between GSM and GPRS from a performance point of view？`
+
+## 802.11 Wireless LANs(Bianchi model)
+
+### DCF（Distributed Coordination Function）
+#### CSMA/CA
+<img width="345" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/e630a030-0333-4b40-bb07-763de74214c1">
+
+##### DIFS(Distributed Inter-Frame Spacing)
+##### SIFS(Short Inter-Frame Spacing)
+##### Contention window
+##### Backoff
+
+#### RTS/CTS handshaking
+implementing RTS/CTS is to minimize collisions
+
+
+## (Universal Mobile Telecommunication System) UMTS (3G)
+### CDMA (code Division Medium Access)
 
 
 # Literature
