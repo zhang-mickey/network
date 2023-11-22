@@ -191,11 +191,16 @@ QoS can help in other ways (for example, packet loss and jitter), but it cannot,
 implementing RTS/CTS is to minimize collisions
 
 ## GSM
+`The GSM protocol is based on both TDMA and FDMA? Explain what that mean?`
+
+
 ### TDMA(Time Division Medium Access)
 
 ### FDMA(Frequency Division Medium Access)
 
-## GPRS
+## GPRS(General Packet Radio Service)(2.5G)
+`what are the main differences between GSM and GPRS from a performance point of view？`
+
 
 # Literature
 High Performance Browser Networking, Ilya Grigorik, O-Reilly, 2013.  
