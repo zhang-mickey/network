@@ -156,6 +156,7 @@ Packets are normally forwarded by intermediate network nodes asynchronously usin
 Packet switching contrasts with another principal networking paradigm, `circuit switching`, a method which pre-allocates dedicated network bandwidth specifically for each communication session, each having a constant bit rate and latency between nodes.
 
 ### traffic policing 
+`what are the goals of traffic shaping and policing,and what is the fundamental difference between the two methods?`
 
 ### traffic shaping
 
