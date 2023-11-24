@@ -157,6 +157,7 @@ Packet switching contrasts with another principal networking paradigm, `circuit 
 
 ### traffic policing 
 `what are the goals of traffic shaping and policing,and what is the fundamental difference between the two methods?`
+<img width="351" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/c1fbbbeb-2ee0-436a-b1fb-b8553e8c7df0">
 
 ### traffic shaping
 
