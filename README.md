@@ -94,6 +94,11 @@ Service times have an exponential distribution with parameter μ. If there are f
 <img width="569" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/bb3d38c0-424b-41c0-9c21-707f4431f182">
 </br>
 
+## MSS(Maximum Segment Size)
+TCP 数据段中数据部分的最大长度
+# RTT
+从发送方发送数据到发送方接收到来自接收方的确认消息所经过的时间
+
 ## TCP fast open
 allows data transfer within the SYN packet,
 
