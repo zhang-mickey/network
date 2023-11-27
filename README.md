@@ -184,7 +184,10 @@ QoS might improve end-to-end network delay for a given level of congestion—the
 However, you will never be able to reduce the delay below the "danger zone" (25 ms) for echo perception with any form of QoS because the minimum delay inherent in VoIP networks is long enough for echos to be perceptible.   
 QoS can help in other ways (for example, packet loss and jitter), but it cannot, by itself, eliminate echo.  
 
-
+## Process sharing model
+Flow-level behavior of TCP data transfers is often be modeled by PS models.
+### Performance metrics
+mean sojourn time 
 
 ## GSM (-Erlang-B model) (2G)
 `The GSM protocol is based on both TDMA and FDMA? Explain what that mean?`
