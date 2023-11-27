@@ -216,6 +216,8 @@ implementing RTS/CTS is to minimize collisions
 
 ## (Universal Mobile Telecommunication System) UMTS (3G)
 ### CDMA (code Division Medium Access)
+## Long-Term Evolution(4G)
+### Orthogonal FDMA
 
 
 # Literature
