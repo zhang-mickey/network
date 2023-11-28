@@ -160,8 +160,15 @@ Instead of being transmitted over a circuit-switched network, the digital inform
 Packets are normally forwarded by intermediate network nodes asynchronously using `first-in-first-out buffering`, but may be forwarded according to some scheduling discipline for fair queuing, `traffic shaping`, or for differentiated or guaranteed quality of service, such as weighted fair queuing or leaky bucket.
 Packet switching contrasts with another principal networking paradigm, `circuit switching`, a method which pre-allocates dedicated network bandwidth specifically for each communication session, each having a constant bit rate and latency between nodes.
 
+### DiffServ(Differentiated Service)
+### Packet Classification
+
 ### traffic policing 
+Router policies are needed to treat packets accordingly  
+priorities of different classes(real-time traffic may get priority over non-real-time traffic)  
+
 `what are the goals of traffic shaping and policing,and what is the fundamental difference between the two methods?`
+
 <img width="351" alt="image" src="https://github.com/zhang-mickey/network/assets/145342600/c1fbbbeb-2ee0-436a-b1fb-b8553e8c7df0">
 
 ### traffic shaping
